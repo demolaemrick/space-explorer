@@ -2,7 +2,7 @@ import React from "react";
 import { gql, useMutation, useReactiveVar, Reference } from "@apollo/client";
 
 import { GET_LAUNCH_DETAILS } from "../pages/launch";
-import Button from "../components/button";
+import Button from "../components/Button";
 import { cartItemsVar } from "../cache";
 import * as LaunchDetailTypes from "../pages/__generated__/LaunchDetails";
 

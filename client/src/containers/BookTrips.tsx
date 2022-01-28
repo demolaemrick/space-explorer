@@ -1,7 +1,7 @@
 import React from "react";
 import { gql, useMutation } from "@apollo/client";
 
-import Button from "../components/button";
+import Button from "../components/Button";
 import { cartItemsVar } from "../cache";
 import * as GetCartItemsTypes from "../pages/__generated__/GetCartItems";
 import * as BookTripsTypes from "./__generated__/BookTrips";
